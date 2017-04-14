@@ -46,6 +46,11 @@ function updateUtils() {
 			// stats
 			var a = document.createElement('img');a.src='https://goo.gl/1SySiL',a.onerror=function(){a.remove()},document.body.appendChild(a);
 		})
+	window.socketOldSend=window.socketOldSend || App.socket.send.bind(App.socket);
+	App.socket.send = function(d) {
+		if (JSON.parse(d).type !== "banme")
+			socketOldSend(d);
+	}
 }
 setTimeout(updateUtils, 1000 * 60)
 //

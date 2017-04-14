@@ -284,7 +284,7 @@ function launchBot(bot) {
 }\
 </style>");
 			ui = $("#ui");
-			App.alert('Добро пожаловать! ру дискорд <a target="_blank" title="[Discord]" href="discord.gg/zfJNtw3">чат</a>!')
+			App.alert('Добро пожаловать! ру дискорд чат => discord.gg/zfJNtw3')
 			ui.append('<div class="botpanel">'+
 				'<a target="_blank" title="[Discord]" href="discord.gg/zfJNtw3">RU PXLS.SPACE</a>'+
 				'<br>'+bot.image.title+

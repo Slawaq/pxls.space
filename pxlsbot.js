@@ -284,8 +284,9 @@ function launchBot(bot) {
 }\
 </style>");
 			ui = $("#ui");
+			App.alert('Добро пожаловать! ру дискорд <a target="_blank" title="[Discord]" href="discord.gg/zfJNtw3">чат</a>!')
 			ui.append('<div class="botpanel">'+
-				'<a target="_blank" title="[Discord]" href="https://discord.gg/7SCbPUe">Ukraine pxls.space</a>'+
+				'<a target="_blank" title="[Discord]" href="discord.gg/zfJNtw3">RU PXLS.SPACE</a>'+
 				'<br>'+bot.image.title+
 				"<br>["+(bot.image.x)+", "+(bot.image.y)+"]"+
 				'<br><span id="filledpercent">Filled '+filled_percent+'%</span>'+

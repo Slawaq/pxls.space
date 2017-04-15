@@ -91,7 +91,7 @@ function launchBot(bot) {
 				Notification.requestPermission();
 			else {
 				var notification = new Notification('Pxls.space', {
-					body: "Введіть капчу!",
+					body: "Введите капчу!",
 				});
 				notification.onclick = function() {
 					window.focus();
